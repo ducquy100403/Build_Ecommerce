@@ -263,3 +263,91 @@
 }
 
 
+/* sm-banner */
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("/assest/img/banner/b17.jpg");
+  width: 49%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#sm-banner .banner-box2{
+  background-image: url("/assest/img/banner/b10.jpg");
+}
+
+#sm-banner h4{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+#sm-banner h2{
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#sm-banner span{
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#sm-banner .banner-box button:hover{
+  background-color: var(--highlight-color);
+  border: 1px solid var(--highlight-color);
+}
+
+#banner3{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
+#banner3 .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("/assest/img/banner/b4.jpg");
+  width: 32%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 h2{
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+#banner3 h3{
+  color: #ec544e;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+#banner3 .banner-box2{
+  background-image: url("/assest/img/banner/b7.jpg");
+}
+
+#banner3 .banner-box3{
+  background-image: url("/assest/img/banner/b18.jpg");
+}

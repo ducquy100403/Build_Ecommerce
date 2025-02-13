@@ -89,7 +89,9 @@ button.write{
   transition: 0.2s ease;
 }
 
-body {
-  width: 100%;
-}
 
+#header__navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

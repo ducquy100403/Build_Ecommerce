@@ -103,7 +103,38 @@
 
     #pro-details .single-product-img{
         width: 50%;
-      }
+    }
+
+    #about-head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+    }
+
+    #about-head div {
+        padding: 20px 0 0 0;
+    }
+
+    #about-head p{
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+
+    #about-head abbr{
+        font-size: 1.8rem;
+    }
+
+    #about-head marquee{
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
+    #about-app .video{
+        width: 100%;
+    }
 }
 
 @media (max-width: 477px)

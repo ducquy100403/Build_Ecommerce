@@ -1,5 +1,6 @@
 @media(max-width:799px)
 {
+
     .section-p1 {
         padding: 40px 40px;
     }
@@ -87,11 +88,11 @@
     }
 
     #banner3{
-        padding: 0 40px;
+    padding: 0 40px;
     }
 
     #banner3 .banner-box{
-        width: 32%;
+    width: 32%;
     }
 
     #newsletter .form{
@@ -163,19 +164,5 @@
 
     footer .copyright {
        text-align: start;
-    }
-
-    /* Single product */
-    #pro-details {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #pro-details .single-product-img {
-        width: 100%;
-    }
-
-    #pro-details .single-product-details {
-        width: 100%;
     }
 }

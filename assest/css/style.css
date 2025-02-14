@@ -528,7 +528,7 @@ footer .copyright p{
 }
 
 #pro-details .single-product-img{
-  width: 40%;
+  width: 30%;
   margin-right: 50px;
 }
 
@@ -544,7 +544,6 @@ footer .copyright p{
 
 #pro-details .single-product-details{
   width: 50%;
-  padding-top: 30px;
   flex: 1;
 }
 
